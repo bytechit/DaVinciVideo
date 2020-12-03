@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 for i in *.mp4;
 	do name=`echo $i | cut -d '.'  -f1`;
